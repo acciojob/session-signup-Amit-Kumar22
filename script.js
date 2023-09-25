@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const signUpForm = document.getElementById("signup-form");
+	 
 
     signUpForm.addEventListener("submit", function(event) {
         event.preventDefault();
@@ -12,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Check if passwords match
         if (password !== confirmPassword) {
-            alert("Passwords do not match. Please try again.");
+            alert("Passwords do not match");
             return;
         }
 
