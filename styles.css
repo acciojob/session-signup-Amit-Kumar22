@@ -1,14 +1,10 @@
 /*  your css code here. If applicable */
 #signup-form{
-    background-color: rgba(0, 0, 0, 0);
-    box-shadow: 3px 3px 12px black;
+    background-color: #f8f9fa;
 	border: 1px solid #ccc;
 	border-radius: 4px;
-      top: 100px;
-      left: 418px;
-      margin: auto;
-      width: 300px;
-      padding: 2rem;
+    width: 300px;
+    padding: 2rem;
 }
 #signup-form input{
     width: 100%;
@@ -18,23 +14,13 @@
 	margin: 1rem;
 }
 #submit{
-    width: 87%;
-    margin: auto;
     padding: 0.7rem 1.2rem;
-    background: #007bff;
+    background-color: #007bff;
     border-radius: 4px;
     color: white;
-    cursor: pointer;
-	font-weight: bold;
 }
 label{
 	margin-bottom: 0.5rem;
 	font-size: 1.2rem;
 	font-weight: bold;
-}
-#session-storage{
-	height: 500px;
-	width: 200px;
-	border: 2px solid red;
-	display: none;
 }
